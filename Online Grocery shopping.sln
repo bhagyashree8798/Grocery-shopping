@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online Grocery shopping", "Online Grocery shopping.csproj", "{9FBD99BB-3BB1-4E41-A25C-87728C7631AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56D3D7D8-FD84-4532-B281-1D357D00C1F2}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FBD99BB-3BB1-4E41-A25C-87728C7631AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBD99BB-3BB1-4E41-A25C-87728C7631AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBD99BB-3BB1-4E41-A25C-87728C7631AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBD99BB-3BB1-4E41-A25C-87728C7631AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50D5CEEB-2C4C-40DB-B0D4-C899768B769F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,270 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Online_Grocery_shopping.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>eGrocery Store</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet2.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    
+    <style type="text/css">
+        .auto-style1 {
+            margin-right: 0px;
+        }
+        .auto-style2 {
+            font-weight: bold;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav class="navigation">
+        <a href="#" class="logo">
+            <span>e</span>Grocery
+        </a>
+        <ul class="menu">
+            <li><a href="#search-banner" class="active">Home</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#popular-bundle-pack">Our Packages</a></li>
+            <li><a href="#about">About</a></li>&nbsp;
+            <li><a href="Login.aspx">Login</a></li>
+            <li><a href="Registration.aspx">Sign Up</a></li>
+            <li><a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart" aria-hidden="true" id="addcart" style="width: 11px"></i> 
+                </a>
+        </ul>
+        
+
+    </nav>
+    <section id="search-banner">
+
+        <div class="search-banner-text">
+            <h1>Order Your daily Groceries</h1>
+            <strong>#Free Delivery</strong>
+        </div>
+        
+    </section>
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+
+        <div class="category-container">
+            <a href="#" class="category-box">
+               <img src="images/fish.jpg"  alt="Fish">
+                <span>Fish & Meat</span>
+            </a>
+            <a href="#" class="category-box">
+               <img src="images/apple.jpg"  alt="Apple">
+                <span>Apple</span>
+            </a>
+            <a href="#" class="category-box">
+               <img src="images/medicine.jpg"  alt="Medicine">
+                <span>Medicine</span>
+            </a>
+            <a href="#" class="category-box">
+               <img src="images/c.png"  alt="c">
+                <span>Baby</span>
+            </a>
+            <a href="#" class="category-box">
+               <img src="images/lipstick.jpg"  alt="Lipstick">
+                <span>Beauty</span>
+            </a>
+            <a href="#" class="category-box">
+               <img src="images/tree.jpg"  alt="Tree">
+                <span>Tree</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="popular-product">
+
+        <div class="product-heading">
+            <h3>Popular Product</h3>
+            <span>All</span>
+        </div>
+
+        <div class="product-container">
+
+            <div class="product-box">
+                <img src="images/R.jpg" alt="apple">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">$2</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/chilli.jpg" alt="chilli">
+                <strong>Chilli</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">$3</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/tomato.jpg" alt="tomato" class="auto-style1">
+                <strong>Tomato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">$3 </span>&nbsp;<strong><asp:Button ID="Button1" runat="server" BackColor="#999966" CssClass="auto-style2" ForeColor="#009933" OnClick="Button1_Click" Text="Add to cart" Width="75px" />
+                </strong>
+            </div>
+            <div class="product-box">
+                <img src="images/garlic.jpg" alt="garlic">
+                <strong>Garlic</strong>
+                <span class="quantity">2 KG</span>
+                <span class="price">$4</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/potato.jpg" alt="potato">
+                <strong>Potato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">$2</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular-bundle-pack">
+        <div class="product-heading">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+
+        <div class="product-container">
+
+            <div class="product-box">
+                <img src="images/pack1.jpg" alt="pack">
+                <strong>Big pack</strong>
+                <span class="quantity">Lemone,Tomato,Potato,+4</span>
+                <span class="price">$9</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/pack2.jpg" alt="pack">
+                <strong>Small pack</strong>
+                <span class="quantity">Ginger, lady finger, +3</span>
+                <span class="price">$5</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/pack3.jpg" alt="pack">
+                <strong>Large pack</strong>
+                <span class="quantity">Orange, Grapes, +4</span>
+                <span class="price">$6</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/pack4.jpg" alt="pack">
+                <strong>Mixture pack</strong>
+                <span class="quantity">Mix vegies, +2</span>
+                <span class="price">$7</span>
+
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="app-img">
+            <img src="images/GettyImages-521813393.jpg" />
+        </div>
+
+        <div class="download-app-text">
+            <strong>
+                About
+            </strong>
+            <p>Probably one of the more obvious advantages to online grocery shopping is that it saves money. You can quickly shop around to multiple stores to find the best deal without ever leaving home. To get started, check out my Natural and Organic Grocery Price List.</p>
+            <div class="download-btns">
+            </div>
+        </div>
+    </section>
+
+     
+
+    <footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <a href="#"><span>e</span>Grocery</a>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=en-in"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/watch?v=YVfn9M38_hs"><i class="fab fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+        <div class="footer-links">
+            <strong>Product</strong>
+            <ul>
+                <li><a href="#">Clothes</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">New</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <strong>Category</strong>
+            <ul>
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Meats</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Clothes</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <strong>Contact</strong>
+            <ul>
+                <li><a href="#">Phone : +123456789</a></li>
+                <li><a href="#">Email : Smile@gmail.com</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    </footer>
+
+
+
+    
+    </form>
+
+
+
+    
+</body>
+</html>
