@@ -11,257 +11,313 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
     
     <style type="text/css">
         .auto-style1 {
-            margin-right: 0px;
+            font-family: Nunito, sans-serif;
         }
         .auto-style2 {
-            font-weight: bold;
+            width: 1197px;
+            height: 93px;
+            margin-left: 4px;
+            margin-right: 0px;
+            margin-top: 4px;
+            margin-bottom: 1px;
+            background-color: #99CCFF;
+        }
+        .auto-style3 {
+            color: #339933;
+            font-size: x-large;
+        }
+        .auto-style4 {
+            height: 86px;
+            width: 1235px;
+        }
+        .auto-style5 {
+            height: 229px;
+            text-align: left;
+            margin-left: 48px;
+            margin-top: 0px;
+            width: 1204px;
+        }
+        .auto-style6 {
+            font-size: large;
+        }
+        .auto-style8 {
+            font-size: medium;
+        }
+        .auto-style10 {
+            margin-left: 14px;
+        }
+        .auto-style11 {
+            font-size: x-large;
+        }
+        .auto-style12 {
+            width: 160px;
+            height: 138px;
+            margin-left: 2px;
+            margin-bottom: 6px;
+        }
+        .auto-style13 {
+            margin-left: 38px;
+            width: 1175px;
+            height: 146px;
+        }
+        .auto-style14 {
+            margin-left: 54px;
+        }
+        .auto-style15 {
+            margin-left: 40px;
+            margin-top: 0px;
+            height: 46px;
+        }
+        .auto-style16 {
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        .auto-style19 {
+            width: 151px;
+            height: 140px;
+        }
+        .auto-style20 {
+            width: 156px;
+            height: 139px;
+        }
+        .auto-style21 {
+            width: 181px;
+            height: 139px;
+        }
+        .auto-style22 {
+            margin-left: 2px;
+        }
+        .auto-style23 {
+            width: 176px;
+            height: 138px;
+        }
+        .auto-style24 {
+            margin-left: 0px;
+        }
+        .auto-style25 {
+            height: 221px;
+            width: 1225px;
+            color: #FFFFFF;
+            margin-left: 2px;
+            margin-top: 9px;
+            background-color: #000000;
+        }
+        .auto-style26 {
+            margin-left: 54px;
+            width: 1154px;
+        }
+        .auto-style27 {
+            margin-left: 54px;
+            width: 1081px;
+            height: 24px;
+        }
+        .auto-style28 {
+            width: 86px;
+            height: 66px;
+            margin-left: 0px;
+        }
+        .auto-style29 {
+            margin-left: 54px;
+            width: 1081px;
+            height: 23px;
+            margin-top: 5px;
+        }
+        .auto-style30 {
+            margin-left: 54px;
+            width: 1081px;
+            height: 82px;
+        }
+        .auto-style31 {
+            width: 81px;
+            height: 71px;
+        }
+        .auto-style32 {
+            width: 87px;
+            height: 70px;
+        }
+        .auto-style33 {
+            width: 81px;
+            height: 69px;
+        }
+        .auto-style34 {
+            width: 77px;
+            height: 70px;
+        }
+        .auto-style35 {
+            width: 86px;
+            height: 73px;
+        }
+        .auto-style36 {
+            margin-left: 54px;
+            width: 1081px;
+            height: 27px;
+            margin-top: 5px;
         }
     </style>
     
 </head>
-<body>
-    <form id="form1" runat="server">
-    <nav class="navigation">
-        <a href="#" class="logo">
-            <span>e</span>Grocery
-        </a>
-        <ul class="menu">
-            <li><a href="#search-banner" class="active">Home</a></li>
-            <li><a href="#category">Categories</a></li>
-            <li><a href="#popular-bundle-pack">Our Packages</a></li>
-            <li><a href="#about">About</a></li>&nbsp;
-            <li><a href="Login.aspx">Login</a></li>
-            <li><a href="Registration.aspx">Sign Up</a></li>
-            <li><a href="#" class="cart-btn">
-                    <i class="fa fa-shopping-cart" aria-hidden="true" id="addcart" style="width: 11px"></i> 
-                </a>
-        </ul>
-        
-
-    </nav>
-    <section id="search-banner">
-
-        <div class="search-banner-text">
-            <h1>Order Your daily Groceries</h1>
-            <strong>#Free Delivery</strong>
+<body style="width: 1176px; height: 88px; margin-bottom: 4px; margin-right: 57px;">
+    <form id="form1" runat="server" class="auto-style4">
+    <div class="auto-style2">
+        <p class="auto-style15">
+        <span class="auto-style3"><strong>e</strong></span><span class="auto-style1"><strong><span class="auto-style11">Grocery</span>&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button1" runat="server" BorderStyle="None" Height="38px" Text="Home" Width="62px" Font-Bold="True" Font-Size="Small" OnClick="Button1_Click1" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Button ID="Button2" runat="server" BorderStyle="None" CssClass="auto-style16" Font-Bold="True" Height="37px" Text="About" Width="58px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Button ID="Button3" runat="server" BorderStyle="None" Font-Bold="True" Height="37px" Text="Products" Width="79px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button4" runat="server" BorderStyle="None" Font-Bold="True" Height="38px" Text="Categories" Width="84px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button5" runat="server" BorderStyle="None" Font-Bold="True" Height="37px" PostBackUrl="~/Login.aspx" Text="Login" Width="66px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button6" runat="server" BorderStyle="None" Font-Bold="True" Height="38px" PostBackUrl="~/Registration.aspx" Text="Sign Up" Width="78px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="36px" ImageUrl="~/images/cart.jpg" PostBackUrl="~/Cart.aspx" Width="39px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+        </p>
         </div>
-        
-    </section>
-    <section id="category">
-        <div class="category-heading">
-            <h2>Category</h2>
-            <span>All</span>
-        </div>
-
-        <div class="category-container">
-            <a href="#" class="category-box">
-               <img src="images/fish.jpg"  alt="Fish">
-                <span>Fish & Meat</span>
-            </a>
-            <a href="#" class="category-box">
-               <img src="images/apple.jpg"  alt="Apple">
-                <span>Apple</span>
-            </a>
-            <a href="#" class="category-box">
-               <img src="images/medicine.jpg"  alt="Medicine">
-                <span>Medicine</span>
-            </a>
-            <a href="#" class="category-box">
-               <img src="images/c.png"  alt="c">
-                <span>Baby</span>
-            </a>
-            <a href="#" class="category-box">
-               <img src="images/lipstick.jpg"  alt="Lipstick">
-                <span>Beauty</span>
-            </a>
-            <a href="#" class="category-box">
-               <img src="images/tree.jpg"  alt="Tree">
-                <span>Tree</span>
-            </a>
-        </div>
-    </section>
-
-    <section id="popular-product">
-
-        <div class="product-heading">
-            <h3>Popular Product</h3>
-            <span>All</span>
-        </div>
-
-        <div class="product-container">
-
-            <div class="product-box">
-                <img src="images/R.jpg" alt="apple">
-                <strong>Apple</strong>
-                <span class="quantity">1 KG</span>
-                <span class="price">$2</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-            <div class="product-box">
-                <img src="images/chilli.jpg" alt="chilli">
-                <strong>Chilli</strong>
-                <span class="quantity">1 KG</span>
-                <span class="price">$3</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-            <div class="product-box">
-                <img src="images/tomato.jpg" alt="tomato" class="auto-style1">
-                <strong>Tomato</strong>
-                <span class="quantity">1 KG</span>
-                <span class="price">$3 </span>&nbsp;<strong><asp:Button ID="Button1" runat="server" BackColor="#999966" CssClass="auto-style2" ForeColor="#009933" OnClick="Button1_Click" Text="Add to cart" Width="75px" />
-                </strong>
-            </div>
-            <div class="product-box">
-                <img src="images/garlic.jpg" alt="garlic">
-                <strong>Garlic</strong>
-                <span class="quantity">2 KG</span>
-                <span class="price">$4</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-            <div class="product-box">
-                <img src="images/potato.jpg" alt="potato">
-                <strong>Potato</strong>
-                <span class="quantity">1 KG</span>
-                <span class="price">$2</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="popular-bundle-pack">
-        <div class="product-heading">
-            <h3>Popular Bundle Pack</h3>
-        </div>
-
-        <div class="product-container">
-
-            <div class="product-box">
-                <img src="images/pack1.jpg" alt="pack">
-                <strong>Big pack</strong>
-                <span class="quantity">Lemone,Tomato,Potato,+4</span>
-                <span class="price">$9</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-            <div class="product-box">
-                <img src="images/pack2.jpg" alt="pack">
-                <strong>Small pack</strong>
-                <span class="quantity">Ginger, lady finger, +3</span>
-                <span class="price">$5</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-            <div class="product-box">
-                <img src="images/pack3.jpg" alt="pack">
-                <strong>Large pack</strong>
-                <span class="quantity">Orange, Grapes, +4</span>
-                <span class="price">$6</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-            <div class="product-box">
-                <img src="images/pack4.jpg" alt="pack">
-                <strong>Mixture pack</strong>
-                <span class="quantity">Mix vegies, +2</span>
-                <span class="price">$7</span>
-
-                <a href="#" class="cart-btn">
-                    <i class="fas fa-shopping-bag"> Add to Cart</i> 
-                </a>
-            </div>
-            
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="app-img">
-            <img src="images/GettyImages-521813393.jpg" />
-        </div>
-
-        <div class="download-app-text">
+        <p>
+            &nbsp;</p>
+        <div class="auto-style5">
             <strong>
-                About
+            <asp:Label ID="Label1" runat="server" CssClass="auto-style6" Text="About" Font-Bold="True"></asp:Label>
             </strong>
-            <p>Probably one of the more obvious advantages to online grocery shopping is that it saves money. You can quickly shop around to multiple stores to find the best deal without ever leaving home. To get started, check out my Natural and Organic Grocery Price List.</p>
-            <div class="download-btns">
-            </div>
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em><span class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            </span><span class="auto-style8">&nbsp;</span><span class="auto-style6">Online Grocery Shopping is a way of buying food and other household necessities using&nbsp; a web-based shopping service.<br />
+            </span>
+            <br class="auto-style6" />
+            <span class="auto-style6">&nbsp;Online shopping refers to the action or activity of purchasing goods or services from websites i.e. over the internet.<br />
+            </span>
+            <br class="auto-style6" />
+            <span class="auto-style6">&nbsp;The COVID-19 pandemic greatly accelerated the growth of online grocers, and in the first few months of the pandemics online grocery shopping increase by 300%.
+            <br />
+&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;Online grocery stores may allow facilitating local food which may reduce the environmental impact of food transport. </span></em>
+            <br class="auto-style6" />
         </div>
-    </section>
+    <p class="auto-style10">
+        &nbsp;</p>
+        <p class="auto-style14">
+            <strong>
+            <asp:Label ID="Label2" runat="server" Text="Popular Products" CssClass="auto-style6"></asp:Label>
+            </strong>
+        </p>
+        <p class="auto-style10">
+            &nbsp;</p>
+        <p class="auto-style13">
+            <img alt="" class="auto-style12" src="images/R.jpg"  price="140rs"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style19" src="images/fishh.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style20" src="images/pack2.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style21" src="images/chilli.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="auto-style23" src="images/potato.jpg" />&nbsp;&nbsp;&nbsp; </p>
+        <p class="auto-style14">
+            &nbsp;</p>
+        <p class="auto-style14">
+            <asp:Label ID="Label3" runat="server" Text="Apple"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label4" runat="server" Text="Fish"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Basket&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chilli&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Potato&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+        <p class="auto-style14">
+            Price:- 140rs/kg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Price:- 200rs/kg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Price:- 300rs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Price:- 100rs/kg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Price:- 120rs/kg</p>
+        <p class="auto-style14">
+            Quantity&nbsp;
+            <asp:DropDownList ID="DropDownList1" runat="server" Height="17px" Width="36px">
+                <asp:ListItem>1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+                <asp:ListItem>4</asp:ListItem>
+            </asp:DropDownList>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantity&nbsp;
+            <asp:DropDownList ID="DropDownList2" runat="server" Height="21px" Width="31px">
+                <asp:ListItem>1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+            </asp:DropDownList>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantity&nbsp;
+            <asp:DropDownList ID="DropDownList3" runat="server" Height="18px" Width="35px">
+                <asp:ListItem>1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+            </asp:DropDownList>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantity&nbsp;
+            <asp:DropDownList ID="DropDownList4" runat="server" Height="21px" Width="36px">
+                <asp:ListItem>1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+            </asp:DropDownList>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantity&nbsp;
+            <asp:DropDownList ID="DropDownList5" runat="server">
+                <asp:ListItem>1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+                <asp:ListItem>4</asp:ListItem>
+                <asp:ListItem>5</asp:ListItem>
+            </asp:DropDownList>
+        </p>
+        <p class="auto-style26">
+            <asp:Button ID="Button7" runat="server" BackColor="#66FF66" CssClass="auto-style22" PostBackUrl="~/Cart.aspx" Text="Add to cart" Width="92px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button8" runat="server" BackColor="#66FF66" CssClass="auto-style24" PostBackUrl="~/Cart.aspx" Text="Add to cart" Width="102px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button9" runat="server" BackColor="#66FF66" PostBackUrl="~/Cart.aspx" Text="Add to cart" Width="100px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="Button10" runat="server" BackColor="#66FF66" PostBackUrl="~/Cart.aspx" Text="Add to cart" Width="95px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button11" runat="server" BackColor="#66FF66" PostBackUrl="~/Cart.aspx" Text="Add to cart" Width="116px" />
+        </p>
+        <br />
+        <p class="auto-style27">
+            <strong>
+            <asp:Label ID="Label5" runat="server" CssClass="auto-style6" Text="Categories"></asp:Label>
+            </strong></p>
+        <p class="auto-style30">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style28" src="images/fish.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style31" src="images/lipstick.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style32" src="images/c.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style33" src="images/apple.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style34" src="images/medicine.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="" class="auto-style35" src="images/pack1.jpg" /></p>
+        <p class="auto-style36">
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Label ID="Label6" runat="server" Font-Bold="True" Text="Fish"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label7" runat="server" Font-Bold="True" Text="Beauty"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label8" runat="server" Font-Bold="True" Text="Baby"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label9" runat="server" Font-Bold="True" Text="Fruit"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label10" runat="server" Font-Bold="True" Text="Medicine"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label11" runat="server" Font-Bold="True" Text="Basket"></asp:Label>
+        </p>
+        <p class="auto-style29">
+            &nbsp;</p>
+            <footer class="auto-style25">
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Categories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Payment&nbsp; Mode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clothes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beauty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button12" runat="server" BackColor="#FFFFCC" Font-Bold="True" Height="29px" Text="Online" Width="57px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button13" runat="server" BackColor="#FFFFCC" Font-Bold="True" Height="28px" Text="Offline" Width="59px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone : 7841811514<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Packages&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meats&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email :
+                <a href="mailto:egrocery@gmail.com">egrocery@gmail.com</a><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Popular&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kids       
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Baskets&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fashion</footer>&nbsp;</form>
 
-     
-
-    <footer>
-    <div class="footer-container">
-        <div class="footer-logo">
-            <a href="#"><span>e</span>Grocery</a>
-
-            <div class="footer-social">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/?lang=en-in"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/watch?v=YVfn9M38_hs"><i class="fab fa-youtube"></i></a>
-            </div>
-
-        </div>
-
-        <div class="footer-links">
-            <strong>Product</strong>
-            <ul>
-                <li><a href="#">Clothes</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Popular</a></li>
-                <li><a href="#">New</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-links">
-            <strong>Category</strong>
-            <ul>
-                <li><a href="#">Beauty</a></li>
-                <li><a href="#">Meats</a></li>
-                <li><a href="#">Kids</a></li>
-                <li><a href="#">Clothes</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-links">
-            <strong>Contact</strong>
-            <ul>
-                <li><a href="#">Phone : +123456789</a></li>
-                <li><a href="#">Email : Smile@gmail.com</a></li>
-                
-            </ul>
-        </div>
-    </div>
-    </footer>
 
 
-
+   
     
-    </form>
 
 
 

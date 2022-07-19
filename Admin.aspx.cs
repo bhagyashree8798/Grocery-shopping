@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using System.Data.SqlClient;
 using System.Configuration;
+
 namespace Online_Grocery_shopping
 {
-    
-    public partial class WebForm9 : System.Web.UI.Page
+    public partial class Admin : System.Web.UI.Page
     {
         String strcon = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,18 +21,14 @@ namespace Online_Grocery_shopping
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-        }    
-
-        protected void Button1_Click1(object sender, EventArgs e)
-        {
             try
             {
 
                 SqlConnection con = new SqlConnection(strcon);
 
-                SqlCommand cmd = new SqlCommand("select * from customerr where custname=@custname and custpass=@custpass", con);
-                cmd.Parameters.AddWithValue("@custname", TextBox1.Text);
-                cmd.Parameters.AddWithValue("@custpass", TextBox2.Text);
+                SqlCommand cmd = new SqlCommand("select * from admin where username=@username and password=@password", con);
+                cmd.Parameters.AddWithValue("@username", TextBox1.Text);
+                cmd.Parameters.AddWithValue("@password", TextBox2.Text);
                 SqlDataAdapter dr = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 dr.Fill(dt);
@@ -39,8 +36,8 @@ namespace Online_Grocery_shopping
                 cmd.ExecuteNonQuery();
                 if (dt.Rows.Count > 0)
                 {
-                    Session["Login"] = TextBox1.Text;
-                    Response.Redirect("~/about1.aspx");
+                    Session["Admin"] = TextBox1.Text;
+                    Response.Redirect("~/adminpanel.aspx");
 
                 }
                 else
@@ -55,8 +52,6 @@ namespace Online_Grocery_shopping
                 Response.Write("<script>alert('" + ex.Message + "');</script>");
             }
 
-        
-
-    }
+        }
     }
 }

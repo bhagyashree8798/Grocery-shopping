@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Online_Grocery_shopping
 {
-    public partial class Contact : Page
+    public partial class about1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

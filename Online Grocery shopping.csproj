@@ -51,9 +51,11 @@
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -111,7 +113,17 @@
   <ItemGroup>
     <Content Include="A-Brief-Food-Prep-Guide.jpg" />
     <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="about1.aspx" />
+    <Content Include="AddtoCart.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="adminpanel.aspx" />
+    <Content Include="App_Data\Registration.mdf" />
+    <Content Include="App_Data\Registration_log.ldf">
+      <DependentUpon>Registration.mdf</DependentUpon>
+    </Content>
+    <Content Include="cart.aspx" />
+    <Content Include="cart.css" />
+    <Content Include="category.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -129,46 +141,48 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Images\cart.jpg" />
+    <Content Include="Images\cart.png" />
+    <Content Include="Images\fishh.jpg" />
     <Content Include="Login.css" />
-    <Content Include="images\A-Brief-Food-Prep-Guide.jpg" />
-    <Content Include="images\a.jpg" />
-    <Content Include="images\apple.jpg" />
-    <Content Include="images\b.jpg" />
-    <Content Include="images\bg.jpg" />
-    <Content Include="images\bg2.jpg" />
-    <Content Include="images\bg3.jpg" />
-    <Content Include="images\c.png" />
-    <Content Include="images\chilli.jpg" />
-    <Content Include="images\client1.jpg" />
-    <Content Include="images\client2.jpg" />
-    <Content Include="images\client3.jpg" />
-    <Content Include="images\dish.jpg" />
-    <Content Include="images\fish.jpg" />
-    <Content Include="images\freshvege.jpg" />
-    <Content Include="images\garlic.jpg" />
-    <Content Include="images\GettyImages-521813393.jpg" />
-    <Content Include="images\googleplay.jpg" />
-    <Content Include="images\grocery-cart.jpg" />
-    <Content Include="images\lipstick.jpg" />
-    <Content Include="images\medicine.jpg" />
-    <Content Include="images\menuu.jpg" />
-    <Content Include="images\pack1.jpg" />
-    <Content Include="images\pack2.jpg" />
-    <Content Include="images\pack3.jpg" />
-    <Content Include="images\pack4.jpg" />
-    <Content Include="images\potato.jpg" />
-    <Content Include="images\R.jpg" />
-    <Content Include="images\tomato.jpg" />
-    <Content Include="images\tree.jpg" />
+    <Content Include="Images\A-Brief-Food-Prep-Guide.jpg" />
+    <Content Include="Images\a.jpg" />
+    <Content Include="Images\apple.jpg" />
+    <Content Include="Images\b.jpg" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg2.jpg" />
+    <Content Include="Images\bg3.jpg" />
+    <Content Include="Images\c.png" />
+    <Content Include="Images\chilli.jpg" />
+    <Content Include="Images\client1.jpg" />
+    <Content Include="Images\client2.jpg" />
+    <Content Include="Images\client3.jpg" />
+    <Content Include="Images\dish.jpg" />
+    <Content Include="Images\fish.jpg" />
+    <Content Include="Images\freshvege.jpg" />
+    <Content Include="Images\garlic.jpg" />
+    <Content Include="Images\GettyImages-521813393.jpg" />
+    <Content Include="Images\googleplay.jpg" />
+    <Content Include="Images\grocery-cart.jpg" />
+    <Content Include="Images\lipstick.jpg" />
+    <Content Include="Images\medicine.jpg" />
+    <Content Include="Images\menuu.jpg" />
+    <Content Include="Images\pack1.jpg" />
+    <Content Include="Images\pack2.jpg" />
+    <Content Include="Images\pack3.jpg" />
+    <Content Include="Images\pack4.jpg" />
+    <Content Include="Images\potato.jpg" />
+    <Content Include="Images\R.jpg" />
+    <Content Include="Images\tomato.jpg" />
+    <Content Include="Images\tree.jpg" />
     <Content Include="iStock-1004112892-online-grocery-shopping.jpg" />
+    <Content Include="Product.aspx" />
+    <Content Include="script.js" />
     <Content Include="style.css" />
     <Content Include="Style2.css" />
-    <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
     <Content Include="Registration.aspx" />
-    <Content Include="WebForm6.aspx" />
     <Content Include="WebForm7.aspx" />
-    <Content Include="WebForm8.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
@@ -177,6 +191,34 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="about1.aspx.cs">
+      <DependentUpon>about1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about1.aspx.designer.cs">
+      <DependentUpon>about1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddtoCart.aspx.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddtoCart.aspx.designer.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminpanel.aspx.cs">
+      <DependentUpon>adminpanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminpanel.aspx.designer.cs">
+      <DependentUpon>adminpanel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -186,12 +228,19 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="category.aspx.cs">
+      <DependentUpon>category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="category.aspx.designer.cs">
+      <DependentUpon>category.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -202,6 +251,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -218,26 +281,12 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
     <Compile Include="Site2.Master.cs">
       <DependentUpon>Site2.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Site3.Master.cs">
-      <DependentUpon>Site3.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site3.Master.designer.cs">
-      <DependentUpon>Site3.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -253,26 +302,12 @@
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm6.aspx.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm6.aspx.designer.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
-    </Compile>
     <Compile Include="WebForm7.aspx.cs">
       <DependentUpon>WebForm7.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebForm7.aspx.designer.cs">
       <DependentUpon>WebForm7.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm8.aspx.cs">
-      <DependentUpon>WebForm8.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm8.aspx.designer.cs">
-      <DependentUpon>WebForm8.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -283,14 +318,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Scripts\WebForms\MSAjax\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Master.Master" />
     <None Include="packages.config" />
-    <Content Include="Site1.Master" />
     <Content Include="Site2.Master" />
-    <Content Include="Site3.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

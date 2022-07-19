@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Online_Grocery_shopping.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+        li {
+  display: inline;
+}
+            li a {
+                text-align:center;
+                display: inline;
+                padding: 45px;
+                
+            }
+
+
+        .auto-style1 {
+            color: #00CC00;
+            font-size: x-large;
+        }
+        .auto-style2 {
+            
+            font-size: x-large;
+        }
+        
+
+        .auto-style4 {
+            margin-left: 35px;
+            height: 59px;
+        }
+        
+
+        .auto-style5 {
+            text-align: center;
+            font-size: large;
+            height: 124px;
+            color: #000000;
+        }
+        
+
+        .auto-style11 {
+            font-weight: bold;
+            font-size: large;
+            color: #0000FF;
+            text-decoration: underline;
+        }
+        .auto-style12 {
+            font-weight: bold;
+            font-size: large;
+            text-decoration: underline;
+        }
+        
+
+    </style>
+      </head>
+    <body style="width: 1176px; height: 10px; margin-bottom: 4px; margin-right: 57px;">
+<header>
+    <p class="auto-style4">
+    <span class="auto-style1"><strong>e</strong></span><span class="auto-style2"><strong>Grocery
+    <br />
+    <br />
+    </strong></span>
+    </p>
+</header>
+ 
+  
+    <form id="form1" runat="server">
+<nav id="nav">  
+    <ul>  
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about1.aspx"><strong><span class="auto-style2">Home</span></strong></a></li>
+        <li class="auto-style2"><a href="about1.aspx"><strong>About</strong></a></li>
+        <li class="auto-style2"><a href="category.aspx"><strong>Category</strong></a></li>
+        <li class="auto-style2"><a href="Product.aspx"><strong>Product</strong></a></li>
+        <li class="auto-style2">&nbsp;&nbsp;&nbsp; </li>
+        <li class="auto-style2"><strong>
+            <asp:Button ID="Button1" runat="server" BackColor="White" BorderStyle="None" CssClass="auto-style12" ForeColor="Blue" PostBackUrl="~/Login.aspx" Text="Login" />
+            </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li>
+        <strong>
+        <asp:Button ID="Button2" runat="server" BackColor="White" BorderStyle="None" CssClass="auto-style12" ForeColor="Blue" PostBackUrl="~/Registration.aspx" Text="Sign Up" />
+        <li>&nbsp;&nbsp;&nbsp; </li>
+        <li>&nbsp;</li>
+        <asp:Button ID="Button3" runat="server" BackColor="White" BorderStyle="None" CssClass="auto-style11" OnClick="Button3_Click" Text="Log out" Visible="False" />
+        </strong>
+    </ul>
+    <p>
+        &nbsp;</p>
+</nav>  
+ 
+  
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+        </div>
+    </form>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+<footer id="footer" class="auto-style5">  
+    <strong>copyright @c# corner  
+</strong>  
+</footer>    
+    
+
+
+
+    
+</body>
+</html>

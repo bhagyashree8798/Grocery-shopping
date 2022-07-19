@@ -10,7 +10,7 @@
 
 namespace Online_Grocery_shopping
 {
-    public partial class Contact
+    public partial class about1
     {
     }
 }
